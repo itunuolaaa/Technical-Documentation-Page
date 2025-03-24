@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Technical Documentation Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+    <body>
+      <main id="main-doc">
+<section class="main-section" id="Technology">
+            <header>Technology</header>
+            <p>This section covers the broad aspects of technology.</p>
+            <p>Technology is ever-evolving and impacts all industries.</p>
+            <code>let tech = "Innovation";</code>
+            <ul>
+                <li>Definition</li>
+                <li>Trends</li>
+                <li>Applications</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Cybersecurity">
+            <header>Cybersecurity</header>
+            <p>Understanding the importance of security in the digital world.</p>
+            <p>Cyber threats are increasing every year.</p>
+            <code>firewall.enable();</code>
+            <ul>
+                <li>Threats</li>
+            </ul>
+        </section>
+        <section class="main-section" id="Networking">
+            <header>Networking</header>
+            <p>Basics and advanced concepts in networking.</p>
+            <p>Networking is crucial for communication between systems.</p>
+            <code>ping 192.168.1.1</code>
+        </section>
+        <section class="main-section" id="Programming">
+            <header>Programming</header>
+            <p>Introduction to programming and coding concepts.</p>
+            <p>Programming allows developers to create software.</p>
+            <p>Various languages cater to different needs.</p>
+            <code>print("Hello, World!")</code>
+            <ul>
+                <li>Languages</li>
+                <li>Best Practices</li>
+            </ul>
+        </section>
+        <section class="main-section" id="AI">
+            <header>AI</header>
+            <p>Exploring Artificial Intelligence and its applications.</p>
+            <p>AI is transforming industries worldwide.</p>
+            <code>model.predict(data)</code>
+        </section>
+</main>
+ <nav id="navbar">
+        <header>Technical Documentation</header>
+        <a class="nav-link" href="#Technology">Technology</a>
+        <a class="nav-link" href="#Cybersecurity">Cybersecurity</a>
+        <a class="nav-link" href="#Networking">Networking</a>
+        <a class="nav-link" href="#Programming">Programming</a>
+        <a class="nav-link" href="#AI">AI</a>
+    </nav>
+      </body>
+  </html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+ body {
+            display: flex;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background-color: #1e1e2e;
+            color: #fff;
+        }
+        #navbar {
+            width: 250px;
+            position: fixed;
+            height: 100vh;
+            overflow-y: auto;
+            background-color: #2a2a3a;
+            padding: 20px;
+            border-right: 3px solid #4a4a6a;
+            left: 0;
+            top: 0;
+        }
+        #navbar header {
+            font-size: 1.8em;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #ffcc00;
+        }
+        .nav-link {
+            display: block;
+            padding: 12px;
+            color: #ffcc00;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+        .nav-link:hover {
+            background-color: #444466;
+            border-radius: 5px;
+        }
+        #main-doc {
+            margin-left: 270px;
+            padding: 30px;
+            flex-grow: 1;
+        }
+        .main-section {
+            margin-bottom: 50px;
+            padding: 20px;
+            background: #29293d;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .main-section header {
+            font-size: 1.6em;
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+        code {
+            background-color: #33334d;
+            color: #ffcc00;
+            padding: 10px;
+            border-radius: 5px;
+            display: block;
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 8px;
+        }
+        @media (max-width: 768px) {
+            #navbar {
+                width: 250px;
+                height: 100vh;
+                position: fixed;
+                left: 0;
+                top: 0;
+                text-align: left;
+            }
+            #main-doc {
+                margin-left: 270px;
+                padding: 20px;
+            }
+        }
